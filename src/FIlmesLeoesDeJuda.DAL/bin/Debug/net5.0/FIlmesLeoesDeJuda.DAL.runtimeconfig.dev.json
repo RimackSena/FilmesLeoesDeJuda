@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Rimac\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Rimac\\.nuget\\packages"
+    ]
+  }
+}

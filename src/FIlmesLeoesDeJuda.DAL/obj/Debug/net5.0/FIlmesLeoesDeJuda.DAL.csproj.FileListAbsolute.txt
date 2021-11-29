@@ -1,0 +1,14 @@
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\bin\Debug\net5.0\FIlmesLeoesDeJuda.DAL.deps.json
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\bin\Debug\net5.0\FIlmesLeoesDeJuda.DAL.dll
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\bin\Debug\net5.0\ref\FIlmesLeoesDeJuda.DAL.dll
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\bin\Debug\net5.0\FIlmesLeoesDeJuda.DAL.pdb
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\obj\Debug\net5.0\FIlmesLeoesDeJuda.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\obj\Debug\net5.0\FIlmesLeoesDeJuda.DAL.AssemblyInfoInputs.cache
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\obj\Debug\net5.0\FIlmesLeoesDeJuda.DAL.AssemblyInfo.cs
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\obj\Debug\net5.0\FIlmesLeoesDeJuda.DAL.csproj.CoreCompileInputs.cache
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\obj\Debug\net5.0\FIlmesLeoesDeJuda.DAL.dll
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\obj\Debug\net5.0\ref\FIlmesLeoesDeJuda.DAL.dll
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\obj\Debug\net5.0\FIlmesLeoesDeJuda.DAL.pdb
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\bin\Debug\net5.0\FIlmesLeoesDeJuda.DAL.runtimeconfig.json
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\bin\Debug\net5.0\FIlmesLeoesDeJuda.DAL.runtimeconfig.dev.json
+C:\Projetos\FIlmesLeoesDeJuda\src\FIlmesLeoesDeJuda.DAL\obj\Debug\net5.0\FIlmesLeoesDeJuda.DAL.genruntimeconfig.cache
