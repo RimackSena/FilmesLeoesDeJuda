@@ -9,10 +9,7 @@ namespace FIlmesLeoesDeJuda.DAL.Entities
         public string Email { get; private set; }
         public string Senha { get; private set; }
 
-        protected Usuario()
-        {
-
-        }
+        protected Usuario() {}
         public Usuario(string nome, string email, string senha)
         {
             Nome = nome;
@@ -20,6 +17,9 @@ namespace FIlmesLeoesDeJuda.DAL.Entities
             Senha = senha;
         }
 
-
+        public void Atualizar(string nome)
+        {
+            Nome = nome;
+        }
     }
 }

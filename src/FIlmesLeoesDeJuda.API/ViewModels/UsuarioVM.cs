@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FIlmesLeoesDeJuda.API.ViewModels
 {
-    public class UsuarioVM
+    public class CadatraUsuarioVM
     {
         [Required(ErrorMessage = "Nome é um campo obrigatório")]
         public string Nome { get; set; }
@@ -16,5 +16,11 @@ namespace FIlmesLeoesDeJuda.API.ViewModels
         public string Senha { get; set; }
     }
 
+    public class AtualizaUsuarioVM
+    {
+        public Guid UsuarioId { get; set; }
 
+        [Required(ErrorMessage = "Nome é um campo obrigatório")]
+        public string Nome { get; set; }
+    }
 }

@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.API\\FIlmesLeoesDeJuda.API.csproj": {}
+    "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.API\\FIlmesLeoesDeJuda.API.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.API\\FIlmesLeoesDeJuda.API.csproj": {
+    "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.API\\FIlmesLeoesDeJuda.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.API\\FIlmesLeoesDeJuda.API.csproj",
+        "projectUniqueName": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.API\\FIlmesLeoesDeJuda.API.csproj",
         "projectName": "FIlmesLeoesDeJuda.API",
-        "projectPath": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.API\\FIlmesLeoesDeJuda.API.csproj",
-        "packagesPath": "C:\\Users\\Rimac\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.API\\obj\\",
+        "projectPath": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.API\\FIlmesLeoesDeJuda.API.csproj",
+        "packagesPath": "C:\\Users\\Diogo\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rimac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -28,11 +33,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\FIlmesLeoesDeJuda.BL.csproj": {
-                "projectPath": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\FIlmesLeoesDeJuda.BL.csproj"
+              "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\FIlmesLeoesDeJuda.BL.csproj": {
+                "projectPath": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\FIlmesLeoesDeJuda.BL.csproj"
               },
-              "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj": {
-                "projectPath": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj"
+              "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj": {
+                "projectPath": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj"
               }
             }
           }
@@ -47,6 +52,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "CryptoHelper": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.12, )"
@@ -84,22 +93,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\FIlmesLeoesDeJuda.BL.csproj": {
+    "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\FIlmesLeoesDeJuda.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\FIlmesLeoesDeJuda.BL.csproj",
+        "projectUniqueName": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\FIlmesLeoesDeJuda.BL.csproj",
         "projectName": "FIlmesLeoesDeJuda.BL",
-        "projectPath": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\FIlmesLeoesDeJuda.BL.csproj",
-        "packagesPath": "C:\\Users\\Rimac\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\obj\\",
+        "projectPath": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\FIlmesLeoesDeJuda.BL.csproj",
+        "packagesPath": "C:\\Users\\Diogo\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.BL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rimac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -112,8 +126,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj": {
-                "projectPath": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj"
+              "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj": {
+                "projectPath": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj"
               }
             }
           }
@@ -142,22 +156,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj": {
+    "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj",
+        "projectUniqueName": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj",
         "projectName": "FIlmesLeoesDeJuda.DAL",
-        "projectPath": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj",
-        "packagesPath": "C:\\Users\\Rimac\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\FIlmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\obj\\",
+        "projectPath": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\FIlmesLeoesDeJuda.DAL.csproj",
+        "packagesPath": "C:\\Users\\Diogo\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\POC\\FilmesLeoesDeJuda\\src\\FIlmesLeoesDeJuda.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rimac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -216,7 +235,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
